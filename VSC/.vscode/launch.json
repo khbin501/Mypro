@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "Debug C File",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build C",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "Debug Go File",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "run Go",
+            "trace": "verbose",
+            "showLog": true
+        }
+    ]
+}

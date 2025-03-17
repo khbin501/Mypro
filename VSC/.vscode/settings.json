@@ -1,0 +1,24 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "P1.C": "cpp",
+        "Tiny Ex1.C": "cpp",
+        "Tiny Ex2.C": "cpp",
+        "coding111.C": "cpp",
+        "coding111 copy.C": "cpp",
+        "arrayCopy.C": "cpp",
+        "test.C": "cpp",
+        "starSearch.C": "cpp",
+        "searching.C": "cpp",
+        "bublesort.C": "cpp",
+        "bubleSort(Ordering).C": "cpp",
+        "bubleSort(Ordering) copy.C": "cpp",
+        "bubleSort(notOrdering).C": "cpp",
+        "indexSearching().C": "cpp",
+        "indexSearch(NotSame).C": "cpp",
+        "indexSearch(NotSame) copy.C": "cpp",
+        "indexSearch(IsSame).C": "cpp",
+        "ex2.C": "cpp",
+        "linkedList.C": "cpp"
+    }
+}
